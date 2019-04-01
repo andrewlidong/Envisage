@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Imagine</title>
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/stylesheets.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+        <script language="javascript" type="text/javascript" src="./js/bundle.js"></script>
+        <title></title>
+    </head>
+
+    <body>
+        <div class="title">Imagine</div>
+        
+        <div class="signature-links">
+            <p class="main-signature">Created by Andrew Li Dong</p>
+            <div class="social-links">
+                <button class="github"><a href="http://www.github.com/andrewlidong"><i class="fab fa-github"></i></a></button>
+                <button class="linkedin"><a href="https://www.linkedin.com/in/andrew-dong/"><i
+                            class="fab fa-linkedin"></i></a></button>
+                <button class="angellist"><a href="https://angel.co/andrewlidong"><i class="fab fa-angellist"></i></a></button>
+                <button class="personal"><a href="http://www.andrewlidong.xyz"><i class="fas fa-laptop"></i></a></button>
+            </div>
+        </div>
+
+        <div class="main-display">
+            <div class="left-display">
+                <div class="canvas-selection">
+                    <h3>Selected Image</h3>
+                    <canvas class="canvas-image" id="image-canvas" width="200" height="200"></canvas>
+                </div>
+
+                <div class="distribution-selection" id="distribution-selection">
+                    <h3>Sample Distributions</h3>
+                    <div class="distribution-selection-options" id="distribution-selection-options">
+                        <button value="poisson" type="submit" class="selected-dist">Poisson</button>
+                        <button value="best-candidate" type="submit" class="nonselected-dist">Best Candidate</button>
+                        <button value="uniform-random" type="submit" class="nonselected-dist">Uniform Random</button>
+                        <button value="uniform" type="submit" class="nonselected-dist">Uniform</button>
+                    </div>
+                </div>
+
+                <div class="image-selections" id="image-selections">
+                    <h3>Sample Images</h3>
+                    <label for="image-file-input" id="image-file-input-label">Upload Image</label>
+
+                    <div class="image-list">
+                        <img class="image-selection selected-image" src="images/abbeyRoad.jpg" />
+                        <img class="image-selection" src="images/bitchesBrew.jpg" />
+                        <img class="image-selection" src="images/londonCalling.jpg" />
+                    </div>
+                    <div class="image-list">
+                        <img class="image-selection" src="images/velvetUnderground.jpg" />
+                        <img class="image-selection" src="images/jimiHendrix.jpg" />
+                        <div class="user-upload-image">
+                            <input id="image-file-input" type="file" class="inputfile"></input>
+                            <img class="image-selection" id="user-image" src="images/default.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-display">
+                <div class="sampled-canvases" id="sampled-canvases"></div>
+                <div class="desc-container" id="desc-container"></div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,188 @@
+.title {
+  position: absolute;
+  z-index: 1;
+
+  top: 1%;
+  left: 1%;
+
+  font-size: 60px;
+}
+
+.main-signature {
+  position: absolute;
+  z-index: 1;
+
+  top: 8%;
+  left: 1%;
+
+  font-style: italic;
+  font-size: 15px;
+}
+
+.social-links {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+
+  top: 15%;
+  left: 1%;
+
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.social-links button {
+  margin-top: 30px;
+}
+
+.social-links button:hover {
+  color: darkred;
+}
+
+.social-links button:active {
+  transform: scale(1.1);
+}
+
+.main-display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.left-display {
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100%;
+}
+
+.canvas-selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.canvas-image {
+}
+
+
+.distribution-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.distribution-selection-options > button {
+    padding: 3px 6px 3px 6px;
+    font-size: 14px;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.distribution-selection-options > button:hover {
+  cursor: pointer;
+}
+
+.image-selections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  justify-content: space-evenly;
+}
+
+.image-selections > h3 {
+  margin: 0px auto 0px auto;
+}
+
+.image-selections img:hover {
+  cursor: pointer;
+}
+
+.image-list {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 500px;
+}
+
+.image-list > * {
+  height: 75px;
+  width: 75px;
+}
+
+#user-image {
+  height: 100%;
+  width: 100%;
+}
+
+#image-file-input-label {
+
+  background-color: #f2f2f2;
+  color: #847777;
+
+  padding: 2px 3px 2px 3px;
+
+  font-size: 16px;
+}
+
+#image-file-input-label:hover {
+  cursor: pointer;
+
+  color: #011400;
+  border-color: black;
+}
+
+#image-file-input {
+	overflow: hidden;
+	position: absolute;
+  z-index: -1;
+  
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+}
+
+
+.right-display {
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100%;
+}
+
+.selected-dist {
+  border: none;
+  border-bottom: 2px solid #4d4dff;
+}
+
+.nonselected-dist {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.sampled-canvases {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sampled-canvases > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
