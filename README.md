@@ -1,15 +1,15 @@
-# PixelPixie
+# PixelPaint
 
 ## About
-PixelPixie is a random sampling algorithm visualization tool.  PixelPixie takes sampling algorithms and uses them over visualizations to create beautiful diagrams.  
+PixelPaint is a random sampling algorithm visualization tool.  PixelPaint takes sampling algorithms and uses them over visualizations to create beautiful diagrams.  
 
-PixelPixie supports 4 sampling algorithms (Poisson, Mitchell's Best Candidate, Uniform Random and Uniform).  Additionally, PixelPixie also offers 3 visualizers (Voronoi, Stippling, and Generation Maze).  PixelPixie offers explanations of each algorithm and visualizer, a live animation over a set of 5 sample paintings and the opportunity for user input.  
+PixelPaint supports 4 sampling algorithms (Poisson, Mitchell's Best Candidate, Uniform Random and Uniform).  Additionally, PixelPaint also offers 3 visualizers (Voronoi, Stippling, and Generation Maze).  PixelPaint offers explanations of each algorithm and visualizer, a live animation over a set of 5 sample paintings and the opportunity for user input.  
 
-Access the live site [here](http://andrewlidong.xyz/PixelPixie/)
+Access the live site [here](http://andrewlidong.xyz/PixelPaint/)
 
 ## Demo
 
-<img src="https://media.giphy.com/media/fxwkbqIbUm3HIiT9x1/giphy.gif" height="400" alt="PixelPixie-gif1">
+<img src="https://media.giphy.com/media/fxwkbqIbUm3HIiT9x1/giphy.gif" height="400" alt="PixelPaint-gif1">
 
 ## Functionality
 
